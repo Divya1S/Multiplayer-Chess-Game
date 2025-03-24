@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Smooth scrolling for better UX */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Gradient background for a modern look */
+.bg-gray-900 {
+  background: linear-gradient(135deg, #111827 0%, #1f2937 100%);
+}
+
+/* Custom hover effects for links */
+nav a:hover {
+  transition: color 0.3s ease;
+}
+
+/* Add subtle animation to the button */
+button {
+  transform: scale(1);
+  transition: transform 0.2s ease-in-out;
+}
+
+button:hover {
+  transform: scale(1.05);
+}
