@@ -1,4 +1,3 @@
-.
 ├── dist/                 # Production build output
 ├── node_modules/         # Dependencies
 ├── src/                  # Source code (main app logic)
